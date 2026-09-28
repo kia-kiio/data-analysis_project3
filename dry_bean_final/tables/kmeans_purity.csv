@@ -1,0 +1,8 @@
+﻿Cluster,Dominant class (train),Train size,Train purity %,Test size,Test purity %
+0,Seker,1618,92.3,411,92.0
+1,Cali,2001,53.1,505,52.7
+2,Dermason,2557,91.8,624,93.1
+3,Bombay,417,100.0,103,100.0
+4,Sira,2468,75.0,631,74.5
+5,Horoz,1423,93.7,349,95.1
+6,Cali,404,48.5,100,49.0

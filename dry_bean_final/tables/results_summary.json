@@ -1,0 +1,77 @@
+{
+  "rows": 13611,
+  "features": 16,
+  "classes": [
+    "BARBUNYA",
+    "BOMBAY",
+    "CALI",
+    "DERMASON",
+    "HOROZ",
+    "SEKER",
+    "SIRA"
+  ],
+  "duplicates_extra_rows": 68,
+  "imbalance_ratio": 6.793,
+  "train_rows": 10888,
+  "test_rows": 2723,
+  "knn": [
+    {
+      "Model": "KNN",
+      "K": 3,
+      "Scale": "Yes",
+      "Train Accuracy": 0.9499,
+      "Test Accuracy": 0.9152,
+      "Macro Recall": 0.9274,
+      "Macro F1": 0.9285
+    },
+    {
+      "Model": "KNN",
+      "K": 5,
+      "Scale": "Yes",
+      "Train Accuracy": 0.9415,
+      "Test Accuracy": 0.9166,
+      "Macro Recall": 0.9271,
+      "Macro F1": 0.9293
+    },
+    {
+      "Model": "KNN",
+      "K": 9,
+      "Scale": "Yes",
+      "Train Accuracy": 0.9368,
+      "Test Accuracy": 0.9163,
+      "Macro Recall": 0.9267,
+      "Macro F1": 0.9289
+    },
+    {
+      "Model": "KNN",
+      "K": 5,
+      "Scale": "No (reference)",
+      "Train Accuracy": 0.8127,
+      "Test Accuracy": 0.7242,
+      "Macro Recall": 0.7229,
+      "Macro F1": 0.727
+    }
+  ],
+  "knn_cv_best_k_by_macro_f1": 9,
+  "lowest_recall_class_k5": "SIRA",
+  "most_confused_pair_k5": [
+    "DERMASON",
+    "SIRA"
+  ],
+  "most_confused_pair_errors": [
+    53,
+    51
+  ],
+  "kmeans": {
+    "purity_train": 0.7992,
+    "purity_test": 0.8002,
+    "test_accuracy_of_train_majority_mapping": 0.8002,
+    "classes_dominant_in_no_cluster": [
+      "BARBUNYA"
+    ],
+    "ARI_test": 0.6738,
+    "NMI_test": 0.7223,
+    "silhouette_train": 0.3127,
+    "ARI_test_unscaled": 0.3782
+  }
+}

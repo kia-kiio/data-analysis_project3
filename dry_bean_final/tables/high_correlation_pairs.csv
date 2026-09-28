@@ -1,0 +1,16 @@
+﻿,,correlation
+Area,ConvexArea,0.9999392261797566
+Compactness,ShapeFactor3,0.9986858130284293
+Perimeter,EquivDiameter,0.991380429598064
+AspectRatio,Compactness,-0.9876872990527673
+ConvexArea,EquivDiameter,0.9852262521812032
+Area,EquivDiameter,0.9849675237714004
+Eccentricity,ShapeFactor3,-0.981057697275398
+AspectRatio,ShapeFactor3,-0.9785922752809353
+Perimeter,MajorAxisLength,0.9773377498852226
+Eccentricity,Compactness,-0.970313021625403
+Perimeter,ConvexArea,0.9676892116996265
+Area,Perimeter,0.9667221821788795
+MajorAxisLength,EquivDiameter,0.9617333598397031
+Area,MinorAxisLength,0.9516015990191636
+MinorAxisLength,ConvexArea,0.951339328669715

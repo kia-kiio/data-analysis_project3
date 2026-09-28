@@ -1,0 +1,10 @@
+# Versions used to build and execute the delivered notebook.
+numpy>=1.26
+pandas>=2.2
+scikit-learn>=1.4
+matplotlib>=3.8
+seaborn>=0.13
+openpyxl>=3.1      # reads the .xlsx dataset
+
+# only needed to open / re-run the notebook
+jupyter>=1.0
