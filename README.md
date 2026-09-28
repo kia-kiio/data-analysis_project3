@@ -1,15 +1,10 @@
-نقش و
-نام GitHub
+## 👥 اعضای گروه
 
-مدیر
-Melina Salemi
-@s-melina
-تحلیلگر
-Kiana Sarkari
-@kia-kiio
-معمار
-Marvel Keshtkar
-@Marvel200123
+| نام | GitHub | نقش |
+|---|---|---|
+| Melina Salemi | [@s-melina](https://github.com/s-melina) | مدیر | 
+| Kiana Sarkari | [@kia-kiio](https://github.com/kia-kiio) | تحلیلگر| 
+| Marvel Keshtkar | [@Marvel200123](https://github.com/Marvel200123) | معمار|
 
 # Dry Bean Classification (KNN) and Class-vs-Cluster Comparison (K-Means)
 
